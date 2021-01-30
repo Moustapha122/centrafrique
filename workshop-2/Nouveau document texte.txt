@@ -1,0 +1,29 @@
+
+body{
+    background-image: url(images/bg-desktop.svg);
+    padding-bottom: 10px;
+    background-color: purple;
+}
+.im{
+   
+    padding: 80px;
+}
+.h1-1{
+    color:white;
+    transform: translate(100px);
+    position: relative;left: 700px;
+    bottom: 6000px;
+    margin-right: 10px;
+}
+.para{
+    color:white;
+    position: relative;left: ;
+    paddind:100px;
+
+}
+.registre{
+    
+    position: relative;left:800px ;
+    bottom:550px;
+    color: white;
+}

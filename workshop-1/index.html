@@ -1,35 +1,101 @@
+
+
+
+
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+	<title>Republique Centrafricaine</title>
+	<meta charset="utf-8">
 
-  <link rel="icon" type="image/ico" sizes="32x32" href="./images/favicon.ico">
-  
-  <title>Profile card component</title>
+<style type="text/css">
+body{
+	background-color: turquoise;
+	background-image: url(images/bg-pattern-top.svg);;
+}
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+	.s1
+	{
+		display: grid;
+		grid-template-rows: 80px 180px;
+		justify-content: center;
+        position: relative;
+        top: 100px;
+	}
+ .un
+{
+
+	padding: 30px;
+    background-image: url(images/bg-pattern-card.svg);
+	color:white;
+    width: 180px;
+    border-radius: 5px;
+}
+
+.deux
+{
+
+	padding: 30px;
+	background-color:white;
+	color: blue;
+    width: 180px;
+     border-radius: 5px;
+}
+.im
+{
+
+height:50px;
+width: 50px;
+display: flex;
+flex-flow: row;
+justify-content:center;
+border-radius: 50px;
+position: relative; bottom: 50px; left: 60px;
+	
+}
+h3{display: flex;
+flex-flow:row;
+justify-content:center;
+position: relative;bottom:50px;right:10px;
+
+
+ }
+.text{color: black;}
+
+.age{position: relative;bottom:86px; left: 138px;color: gray;}
+
+.ville{position: relative;left: 74px;bottom: 108px; color: gray;}
+.hr{position: relative;bottom: 110px;width: 180px;color: white;}
+
+.f{
+	position: relative;bottom: 110px;
+	color: gray;
+	font-weight: bold;
+}
+.f2{
+	position: relative;bottom: 120px;
+	color: gray;
+	font-size: 5px;
+
+}
+</style>
 </head>
 <body>
-  Victor Crest
-  26
-  London
 
-  80K
-  Followers
+	<div class="s1">
+<div class="un"></div>
+<div class="deux"><h4</div>
 
-  803K
-  Likes
+<img src="images/image-victor.jpg" class="im">
+<h3 class=text>victor Crest</h3>
+<span class="age">26</span>
+<h6 class="ville">london</h6>
+<hr class="hr">
+<pre class="f">80k        803k       1.4k</pre>
+<pre class="f2">followers                    likes                        photos</pre>
 
-  1.4K
-  Photos
-  <div class="attribution">
-    Challenge by <a href="https://www.github.com/aymanebenhima" target="_blank">Aymane Benhima</a>. 
-    Coded by <a href="#">Coding Guild Team</a>.
-  </div>
+	</div>
+
+
 </body>
 </html>
